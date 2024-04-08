@@ -1,0 +1,14 @@
+{
+  "openapi" : "3.0.0",
+  "info" : {
+    "title" : "Testing_API",
+    "description" : "This is an API i am making to test out swaggerhub",
+    "version" : "0.1"
+  },
+  "servers" : [ {
+    "url" : "https://virtserver.swaggerhub.com/LETTERSTOSHOAN/Testing_API/0.1",
+    "description" : "SwaggerHub API Auto Mocking"
+  } ],
+  "paths" : { },
+  "components" : { }
+}
