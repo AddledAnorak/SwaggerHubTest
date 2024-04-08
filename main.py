@@ -4,7 +4,7 @@ from schemas import *
 app = FastAPI()
 
 @app.get("/")
-def home_get():
+def home_get() -> str:
     return "hello world from get!"
 
 
@@ -16,10 +16,10 @@ def home_post() -> OutputSchema:
 
 
 @app.put("/")
-def home_put():
+def home_put() -> str:
     return "hello world from put!"
 
 
 @app.delete("/")
-def home_del():
+def home_del() -> str:
     return "hello world from delete!"
